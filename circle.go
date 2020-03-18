@@ -12,8 +12,8 @@ func (circle Circle) Area() float64 {
 	return math.Pi * circle.radius * circle.radius
 }
 
-// Circumference of circle
-func (circle Circle) Circumference() float64 {
+// Perimeter (circumference) of circle
+func (circle Circle) Perimeter() float64 {
 	return 2 * math.Pi * circle.radius
 }
 
